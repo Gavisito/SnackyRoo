@@ -13,6 +13,10 @@
 		60BC9ACE2CCEAA370022A50B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9ACD2CCEAA370022A50B /* Base */; };
 		60BC9AD02CCEAA380022A50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9ACF2CCEAA380022A50B /* Assets.xcassets */; };
 		60BC9AD32CCEAA380022A50B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9AD22CCEAA380022A50B /* Base */; };
+		60BC9ADD2CCEADB00022A50B /* after-effects-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9ADC2CCEADB00022A50B /* after-effects-chime.mp3 */; };
+		60BC9ADF2CCEB0590022A50B /* SnackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */; };
+		60BC9AE12CCEBA6D0022A50B /* success-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */; };
+		60BC9AE32CCEBBD70022A50B /* snackyRooModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		60BC9ACF2CCEAA380022A50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60BC9AD22CCEAA380022A50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BC9AD42CCEAA380022A50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BC9ADC2CCEADB00022A50B /* after-effects-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "after-effects-chime.mp3"; sourceTree = "<group>"; };
+		60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackViewController.swift; sourceTree = "<group>"; };
+		60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "success-chime.mp3"; sourceTree = "<group>"; };
+		60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snackyRooModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		60BC9AC52CCEAA370022A50B /* SnackyRoo */ = {
 			isa = PBXGroup;
 			children = (
+				60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */,
+				60BC9ADC2CCEADB00022A50B /* after-effects-chime.mp3 */,
 				60BC9AC62CCEAA370022A50B /* AppDelegate.swift */,
 				60BC9AC82CCEAA370022A50B /* SceneDelegate.swift */,
 				60BC9ACA2CCEAA370022A50B /* ViewController.swift */,
+				60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */,
 				60BC9ACC2CCEAA370022A50B /* Main.storyboard */,
 				60BC9ACF2CCEAA380022A50B /* Assets.xcassets */,
 				60BC9AD12CCEAA380022A50B /* LaunchScreen.storyboard */,
 				60BC9AD42CCEAA380022A50B /* Info.plist */,
+				60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */,
 			);
 			path = SnackyRoo;
 			sourceTree = "<group>";
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SnackyRoo" */;
+			buildConfigurationList = 60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SkyVIew" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,8 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BC9AD02CCEAA380022A50B /* Assets.xcassets in Resources */,
+				60BC9AE12CCEBA6D0022A50B /* success-chime.mp3 in Resources */,
 				60BC9AD32CCEAA380022A50B /* Base in Resources */,
 				60BC9ACE2CCEAA370022A50B /* Base in Resources */,
+				60BC9ADD2CCEADB00022A50B /* after-effects-chime.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +154,9 @@
 			files = (
 				60BC9ACB2CCEAA370022A50B /* ViewController.swift in Sources */,
 				60BC9AC72CCEAA370022A50B /* AppDelegate.swift in Sources */,
+				60BC9AE32CCEBBD70022A50B /* snackyRooModel.swift in Sources */,
 				60BC9AC92CCEAA370022A50B /* SceneDelegate.swift in Sources */,
+				60BC9ADF2CCEB0590022A50B /* SnackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SnackyRoo" */ = {
+		60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SkyVIew" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60BC9AD52CCEAA380022A50B /* Debug */,
