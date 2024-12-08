@@ -40,13 +40,22 @@ class SnackViewController: UIViewController{
         browser.open(url!)
     }
     
+    func PullImage(imagePath: String) -> UIImage {
+        var downloadedImage =  UIImage()
+        
+        let imgurl = URL(string: imagePath)
+        let imgBytes = try? Data(contentsOf: imgurl!)
+        print(imgBytes ?? "Error")
+        downloadedImage = UIImage(data:imgBytes!)!
+        return downloadedImage
+    }
 
     func labelData(){
         //snackData = snackArray.randomElement()!
         snackNameLBL.text = snackData.snackName
         snackPriceLBL.text = snackData.snackPrice
         snackDescLBL.text = snackData.snackDescription
-        snackIMG.image = UIImage(named: snackData.snackIMG)
+        snackIMG.image = PullImage(imagePath: snackData.snackIMG)
     }
     
     func insertData(){
