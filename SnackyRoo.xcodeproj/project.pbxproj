@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602FBA8F2D050C9D00A73FA1 /* Marinela-Gansito.webp in Resources */ = {isa = PBXBuildFile; fileRef = 602FBA8D2D050C9D00A73FA1 /* Marinela-Gansito.webp */; };
+		602FBA902D050C9D00A73FA1 /* Marinela-Sponch-Marshmallow-Cookies.webp in Resources */ = {isa = PBXBuildFile; fileRef = 602FBA8E2D050C9D00A73FA1 /* Marinela-Sponch-Marshmallow-Cookies.webp */; };
+		602FBA942D0519EA00A73FA1 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602FBA932D0519EA00A73FA1 /* RootTableViewController.swift */; };
+		605A56972D0508BC00E237E9 /* snacks.json in Resources */ = {isa = PBXBuildFile; fileRef = 605A56962D0508BC00E237E9 /* snacks.json */; };
 		60BC9AC72CCEAA370022A50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9AC62CCEAA370022A50B /* AppDelegate.swift */; };
 		60BC9AC92CCEAA370022A50B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9AC82CCEAA370022A50B /* SceneDelegate.swift */; };
 		60BC9ACB2CCEAA370022A50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9ACA2CCEAA370022A50B /* ViewController.swift */; };
@@ -17,9 +21,16 @@
 		60BC9ADF2CCEB0590022A50B /* SnackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */; };
 		60BC9AE12CCEBA6D0022A50B /* success-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */; };
 		60BC9AE32CCEBBD70022A50B /* snackyRooModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */; };
+		60BC9AF32CCEE38F0022A50B /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC9AF22CCEE38E0022A50B /* ReminderViewController.swift */; };
+		60BC9AF52CCEED630022A50B /* reminderAlarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 60BC9AF42CCEED630022A50B /* reminderAlarm.mp3 */; };
+		60C9BB562CCF246900356A14 /* empanadas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 60C9BB552CCF246900356A14 /* empanadas.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		602FBA8D2D050C9D00A73FA1 /* Marinela-Gansito.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Marinela-Gansito.webp"; sourceTree = "<group>"; };
+		602FBA8E2D050C9D00A73FA1 /* Marinela-Sponch-Marshmallow-Cookies.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Marinela-Sponch-Marshmallow-Cookies.webp"; sourceTree = "<group>"; };
+		602FBA932D0519EA00A73FA1 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		605A56962D0508BC00E237E9 /* snacks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = snacks.json; sourceTree = "<group>"; };
 		60BC9AC32CCEAA370022A50B /* SnackyRoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackyRoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BC9AC62CCEAA370022A50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60BC9AC82CCEAA370022A50B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +43,9 @@
 		60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackViewController.swift; sourceTree = "<group>"; };
 		60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "success-chime.mp3"; sourceTree = "<group>"; };
 		60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snackyRooModel.swift; sourceTree = "<group>"; };
+		60BC9AF22CCEE38E0022A50B /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		60BC9AF42CCEED630022A50B /* reminderAlarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reminderAlarm.mp3; sourceTree = "<group>"; };
+		60C9BB552CCF246900356A14 /* empanadas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = empanadas.jpeg; path = SnackyRoo/empanadas.jpeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +78,42 @@
 		60BC9AC52CCEAA370022A50B /* SnackyRoo */ = {
 			isa = PBXGroup;
 			children = (
-				60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */,
-				60BC9ADC2CCEADB00022A50B /* after-effects-chime.mp3 */,
+				605A56962D0508BC00E237E9 /* snacks.json */,
+				60C9BB512CCF201500356A14 /* Images */,
+				60C9BB502CCF200100356A14 /* Sounds */,
 				60BC9AC62CCEAA370022A50B /* AppDelegate.swift */,
 				60BC9AC82CCEAA370022A50B /* SceneDelegate.swift */,
+				60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */,
 				60BC9ACA2CCEAA370022A50B /* ViewController.swift */,
 				60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */,
+				60BC9AF22CCEE38E0022A50B /* ReminderViewController.swift */,
 				60BC9ACC2CCEAA370022A50B /* Main.storyboard */,
 				60BC9ACF2CCEAA380022A50B /* Assets.xcassets */,
 				60BC9AD12CCEAA380022A50B /* LaunchScreen.storyboard */,
 				60BC9AD42CCEAA380022A50B /* Info.plist */,
-				60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */,
+				602FBA932D0519EA00A73FA1 /* RootTableViewController.swift */,
 			);
 			path = SnackyRoo;
+			sourceTree = "<group>";
+		};
+		60C9BB502CCF200100356A14 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				60BC9AE02CCEBA6D0022A50B /* success-chime.mp3 */,
+				60BC9ADC2CCEADB00022A50B /* after-effects-chime.mp3 */,
+				60BC9AF42CCEED630022A50B /* reminderAlarm.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		60C9BB512CCF201500356A14 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				602FBA8D2D050C9D00A73FA1 /* Marinela-Gansito.webp */,
+				602FBA8E2D050C9D00A73FA1 /* Marinela-Sponch-Marshmallow-Cookies.webp */,
+				60C9BB552CCF246900356A14 /* empanadas.jpeg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SkyVIew" */;
+			buildConfigurationList = 60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SnackyRoo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,9 +176,14 @@
 			files = (
 				60BC9AD02CCEAA380022A50B /* Assets.xcassets in Resources */,
 				60BC9AE12CCEBA6D0022A50B /* success-chime.mp3 in Resources */,
+				605A56972D0508BC00E237E9 /* snacks.json in Resources */,
+				602FBA8F2D050C9D00A73FA1 /* Marinela-Gansito.webp in Resources */,
 				60BC9AD32CCEAA380022A50B /* Base in Resources */,
+				602FBA902D050C9D00A73FA1 /* Marinela-Sponch-Marshmallow-Cookies.webp in Resources */,
 				60BC9ACE2CCEAA370022A50B /* Base in Resources */,
+				60C9BB562CCF246900356A14 /* empanadas.jpeg in Resources */,
 				60BC9ADD2CCEADB00022A50B /* after-effects-chime.mp3 in Resources */,
+				60BC9AF52CCEED630022A50B /* reminderAlarm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +196,8 @@
 			files = (
 				60BC9ACB2CCEAA370022A50B /* ViewController.swift in Sources */,
 				60BC9AC72CCEAA370022A50B /* AppDelegate.swift in Sources */,
+				60BC9AF32CCEE38F0022A50B /* ReminderViewController.swift in Sources */,
+				602FBA942D0519EA00A73FA1 /* RootTableViewController.swift in Sources */,
 				60BC9AE32CCEBBD70022A50B /* snackyRooModel.swift in Sources */,
 				60BC9AC92CCEAA370022A50B /* SceneDelegate.swift in Sources */,
 				60BC9ADF2CCEB0590022A50B /* SnackViewController.swift in Sources */,
@@ -360,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SkyVIew" */ = {
+		60BC9ABE2CCEAA370022A50B /* Build configuration list for PBXProject "SnackyRoo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60BC9AD52CCEAA380022A50B /* Debug */,

@@ -1,23 +1,26 @@
-[
+{
+  "Snacks": [
     {
-        "snackName": "Marinela Gansito",
-        "snackPrice": "$3.58",
-        "snackDescription": "Marinela Gansito is a famous Latino snack that children have grown up with. This snack is sort of like a mix between a cookie and a mini cake. It has chocolate, cream, various types of filling, but this one contains strawberry! If you want a good introductory snack into Latino culture, then this is a good option!",
-        "snackWesbite": "https://www.walmart.com/ip/Marinela-Gansito-Strawberry-and-Cr-me-Filled-Snack-Cookies-with-Chocolate-Coating-Artificially-Flavored-10-Count/27147035?classType=REGULAR",
-        "snackIMG": "Marinela-Gansito.webp"
+      "SnackName": "Marinela Gansito",
+      "SnackPrice": "$3.58",
+      "SnackDescription": "Marinela Gansito is a famous Latino snack that children have grown up with. This snack is sort of like a mix between a cookie and a mini cake. It has chocolate, cream, various types of filling, but this one contains strawberry! If you want a good introductory snack into Latino culture, then this is a good option!",
+      "SnackWebsite": "https://www.walmart.com/ip/Marinela-Gansito-Strawberry-and-Cr-me-Filled-Snack-Cookies-with-Chocolate-Coating-Artificially-Flavored-10-Count/27147035?classType=REGULAR",
+      "SnackImage": "Marinela-Gansito.webp"
     },
     {
-        "snackName": "Marinela Sponch Marshmallow Cookies",
-        "snackPrice": "$3.58",
-        "snackDescription": "Another product by Marinela! This is a very interesting snack when I first tried it. It’s definitely a hit or miss for some people. It contains plain marshmallow and strawberry-flavored marshmallow; coconut shaving, and strawberry cream on top.",
-        "snackWesbite": "https://www.walmart.com/ip/Marinela-Sponch-Marshmallow-Cookies-4-count-12-68-oz/10403499?classType=REGULAR",
-        "snackIMG": "Marinela-Sponch-Marshmallow-Cookies.webp"
+      "SnackName": "Marinela Sponch Marshmallow Cookies",
+      "SnackPrice": "$3.58",
+      "SnackDescription": "Another product by Marinela! This is a very interesting snack when I first tried it. It’s definitely a hit or miss for some people. It contains plain marshmallow and strawberry-flavored marshmallow, coconut shaving, and strawberry cream on top.",
+      "SnackWebsite": "https://www.walmart.com/ip/Marinela-Sponch-Marshmallow-Cookies-4-count-12-68-oz/10403499?classType=REGULAR",
+      "SnackImage": "Marinela-Sponch-Marshmallow-Cookies.webp"
     },
     {
-        "snackName": "Empanadas",
-        "snackPrice": "Varies ($2.49)",
-        "snackDescription": "Now, this can be considered a meal on its own right; however, in restaurants, this is usually served as a snack or appetizer. In the image, I cooked those. It contains beef, sweet potatoes, carrots, and various spices to enhance its flavor!",
-        "snackWesbite": "https://aroma-holdings.com/aroma-express/#menu",
-        "snackIMG": "empanadas.jpeg"
+      "SnackName": "Empanadas",
+      "SnackPrice": "Varies ($2.49)",
+      "SnackDescription": "Now, this can be considered a meal on its own right; however, in restaurants, this is usually served as a snack or appetizer. In the image, I cooked those. It contains beef, sweet potatoes, carrots, and various spices to enhance its flavor!",
+      "SnackWebsite": "https://aroma-holdings.com/aroma-express/#menu",
+      "SnackImage": "empanadas.jpeg"
     }
-]
+  ],
+  "Status": "OK"
+}
