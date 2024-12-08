@@ -84,6 +84,7 @@
 				60BC9AC62CCEAA370022A50B /* AppDelegate.swift */,
 				60BC9AC82CCEAA370022A50B /* SceneDelegate.swift */,
 				60BC9AE22CCEBBD70022A50B /* snackyRooModel.swift */,
+				602FBA932D0519EA00A73FA1 /* RootTableViewController.swift */,
 				60BC9ACA2CCEAA370022A50B /* ViewController.swift */,
 				60BC9ADE2CCEB0590022A50B /* SnackViewController.swift */,
 				60BC9AF22CCEE38E0022A50B /* ReminderViewController.swift */,
@@ -91,7 +92,6 @@
 				60BC9ACF2CCEAA380022A50B /* Assets.xcassets */,
 				60BC9AD12CCEAA380022A50B /* LaunchScreen.storyboard */,
 				60BC9AD42CCEAA380022A50B /* Info.plist */,
-				602FBA932D0519EA00A73FA1 /* RootTableViewController.swift */,
 			);
 			path = SnackyRoo;
 			sourceTree = "<group>";
